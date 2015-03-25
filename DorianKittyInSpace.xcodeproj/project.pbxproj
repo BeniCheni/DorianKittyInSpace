@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F540BFE1AC335E9008CA059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540BFD1AC335E9008CA059 /* main.m */; };
+		8F540C011AC335E9008CA059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C001AC335E9008CA059 /* AppDelegate.m */; };
+		8F540C041AC335E9008CA059 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C031AC335E9008CA059 /* GameScene.m */; };
+		8F540C061AC335E9008CA059 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C051AC335E9008CA059 /* GameScene.sks */; };
+		8F540C091AC335E9008CA059 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C081AC335E9008CA059 /* GameViewController.m */; };
+		8F540C0C1AC335E9008CA059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0A1AC335E9008CA059 /* Main.storyboard */; };
+		8F540C0E1AC335E9008CA059 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0D1AC335E9008CA059 /* Images.xcassets */; };
+		8F540C111AC335E9008CA059 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0F1AC335E9008CA059 /* LaunchScreen.xib */; };
+		8F540C1D1AC335E9008CA059 /* DorianKittyInSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F540C171AC335E9008CA059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F540BF01AC335E9008CA059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F540BF71AC335E9008CA059;
+			remoteInfo = DorianKittyInSpace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F540BF81AC335E9008CA059 /* DorianKittyInSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DorianKittyInSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F540BFC1AC335E9008CA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F540BFD1AC335E9008CA059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F540BFF1AC335E9008CA059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F540C001AC335E9008CA059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F540C021AC335E9008CA059 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		8F540C031AC335E9008CA059 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		8F540C051AC335E9008CA059 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8F540C071AC335E9008CA059 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		8F540C081AC335E9008CA059 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		8F540C0B1AC335E9008CA059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F540C0D1AC335E9008CA059 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F540C101AC335E9008CA059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F540C161AC335E9008CA059 /* DorianKittyInSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorianKittyInSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F540C1B1AC335E9008CA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DorianKittyInSpaceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F540BF51AC335E9008CA059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F540C131AC335E9008CA059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F540BEF1AC335E9008CA059 = {
+			isa = PBXGroup;
+			children = (
+				8F540BFA1AC335E9008CA059 /* DorianKittyInSpace */,
+				8F540C191AC335E9008CA059 /* DorianKittyInSpaceTests */,
+				8F540BF91AC335E9008CA059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F540BF91AC335E9008CA059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F540BF81AC335E9008CA059 /* DorianKittyInSpace.app */,
+				8F540C161AC335E9008CA059 /* DorianKittyInSpaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F540BFA1AC335E9008CA059 /* DorianKittyInSpace */ = {
+			isa = PBXGroup;
+			children = (
+				8F540BFF1AC335E9008CA059 /* AppDelegate.h */,
+				8F540C001AC335E9008CA059 /* AppDelegate.m */,
+				8F540C021AC335E9008CA059 /* GameScene.h */,
+				8F540C031AC335E9008CA059 /* GameScene.m */,
+				8F540C051AC335E9008CA059 /* GameScene.sks */,
+				8F540C071AC335E9008CA059 /* GameViewController.h */,
+				8F540C081AC335E9008CA059 /* GameViewController.m */,
+				8F540C0A1AC335E9008CA059 /* Main.storyboard */,
+				8F540C0D1AC335E9008CA059 /* Images.xcassets */,
+				8F540C0F1AC335E9008CA059 /* LaunchScreen.xib */,
+				8F540BFB1AC335E9008CA059 /* Supporting Files */,
+			);
+			path = DorianKittyInSpace;
+			sourceTree = "<group>";
+		};
+		8F540BFB1AC335E9008CA059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F540BFC1AC335E9008CA059 /* Info.plist */,
+				8F540BFD1AC335E9008CA059 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F540C191AC335E9008CA059 /* DorianKittyInSpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */,
+				8F540C1A1AC335E9008CA059 /* Supporting Files */,
+			);
+			path = DorianKittyInSpaceTests;
+			sourceTree = "<group>";
+		};
+		8F540C1A1AC335E9008CA059 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F540C1B1AC335E9008CA059 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F540BF71AC335E9008CA059 /* DorianKittyInSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F540C201AC335E9008CA059 /* Build configuration list for PBXNativeTarget "DorianKittyInSpace" */;
+			buildPhases = (
+				8F540BF41AC335E9008CA059 /* Sources */,
+				8F540BF51AC335E9008CA059 /* Frameworks */,
+				8F540BF61AC335E9008CA059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DorianKittyInSpace;
+			productName = DorianKittyInSpace;
+			productReference = 8F540BF81AC335E9008CA059 /* DorianKittyInSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F540C151AC335E9008CA059 /* DorianKittyInSpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F540C231AC335E9008CA059 /* Build configuration list for PBXNativeTarget "DorianKittyInSpaceTests" */;
+			buildPhases = (
+				8F540C121AC335E9008CA059 /* Sources */,
+				8F540C131AC335E9008CA059 /* Frameworks */,
+				8F540C141AC335E9008CA059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F540C181AC335E9008CA059 /* PBXTargetDependency */,
+			);
+			name = DorianKittyInSpaceTests;
+			productName = DorianKittyInSpaceTests;
+			productReference = 8F540C161AC335E9008CA059 /* DorianKittyInSpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F540BF01AC335E9008CA059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Prince Of Darkness";
+				TargetAttributes = {
+					8F540BF71AC335E9008CA059 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8F540C151AC335E9008CA059 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8F540BF71AC335E9008CA059;
+					};
+				};
+			};
+			buildConfigurationList = 8F540BF31AC335E9008CA059 /* Build configuration list for PBXProject "DorianKittyInSpace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F540BEF1AC335E9008CA059;
+			productRefGroup = 8F540BF91AC335E9008CA059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F540BF71AC335E9008CA059 /* DorianKittyInSpace */,
+				8F540C151AC335E9008CA059 /* DorianKittyInSpaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F540BF61AC335E9008CA059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F540C111AC335E9008CA059 /* LaunchScreen.xib in Resources */,
+				8F540C0E1AC335E9008CA059 /* Images.xcassets in Resources */,
+				8F540C061AC335E9008CA059 /* GameScene.sks in Resources */,
+				8F540C0C1AC335E9008CA059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F540C141AC335E9008CA059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F540BF41AC335E9008CA059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F540C091AC335E9008CA059 /* GameViewController.m in Sources */,
+				8F540C011AC335E9008CA059 /* AppDelegate.m in Sources */,
+				8F540C041AC335E9008CA059 /* GameScene.m in Sources */,
+				8F540BFE1AC335E9008CA059 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F540C121AC335E9008CA059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F540C1D1AC335E9008CA059 /* DorianKittyInSpaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F540C181AC335E9008CA059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F540BF71AC335E9008CA059 /* DorianKittyInSpace */;
+			targetProxy = 8F540C171AC335E9008CA059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F540C0A1AC335E9008CA059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F540C0B1AC335E9008CA059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F540C0F1AC335E9008CA059 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F540C101AC335E9008CA059 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F540C1E1AC335E9008CA059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F540C1F1AC335E9008CA059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F540C211AC335E9008CA059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DorianKittyInSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F540C221AC335E9008CA059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DorianKittyInSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F540C241AC335E9008CA059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DorianKittyInSpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorianKittyInSpace.app/DorianKittyInSpace";
+			};
+			name = Debug;
+		};
+		8F540C251AC335E9008CA059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DorianKittyInSpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorianKittyInSpace.app/DorianKittyInSpace";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F540BF31AC335E9008CA059 /* Build configuration list for PBXProject "DorianKittyInSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F540C1E1AC335E9008CA059 /* Debug */,
+				8F540C1F1AC335E9008CA059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F540C201AC335E9008CA059 /* Build configuration list for PBXNativeTarget "DorianKittyInSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F540C211AC335E9008CA059 /* Debug */,
+				8F540C221AC335E9008CA059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F540C231AC335E9008CA059 /* Build configuration list for PBXNativeTarget "DorianKittyInSpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F540C241AC335E9008CA059 /* Debug */,
+				8F540C251AC335E9008CA059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F540BF01AC335E9008CA059 /* Project object */;
+}
