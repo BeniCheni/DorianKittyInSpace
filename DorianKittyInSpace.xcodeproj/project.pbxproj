@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		8F540BFE1AC335E9008CA059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540BFD1AC335E9008CA059 /* main.m */; };
 		8F540C011AC335E9008CA059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C001AC335E9008CA059 /* AppDelegate.m */; };
-		8F540C041AC335E9008CA059 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C031AC335E9008CA059 /* GameScene.m */; };
-		8F540C061AC335E9008CA059 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C051AC335E9008CA059 /* GameScene.sks */; };
 		8F540C091AC335E9008CA059 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C081AC335E9008CA059 /* GameViewController.m */; };
 		8F540C0C1AC335E9008CA059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0A1AC335E9008CA059 /* Main.storyboard */; };
 		8F540C0E1AC335E9008CA059 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0D1AC335E9008CA059 /* Images.xcassets */; };
 		8F540C111AC335E9008CA059 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0F1AC335E9008CA059 /* LaunchScreen.xib */; };
 		8F540C1D1AC335E9008CA059 /* DorianKittyInSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */; };
+		FED10D4B1AC349800041B28E /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D4A1AC349800041B28E /* GamePlayScene.m */; };
+		FED10D511AC34D6E0041B28E /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D501AC34D6E0041B28E /* TitleScene.m */; };
+		FED10D531AC365E40041B28E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FED10D521AC365E30041B28E /* Sprites.atlas */; };
+		FED10D561AC36C8A0041B28E /* MachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D551AC36C8A0041B28E /* MachineNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,6 @@
 		8F540BFD1AC335E9008CA059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F540BFF1AC335E9008CA059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F540C001AC335E9008CA059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F540C021AC335E9008CA059 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		8F540C031AC335E9008CA059 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		8F540C051AC335E9008CA059 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8F540C071AC335E9008CA059 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		8F540C081AC335E9008CA059 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		8F540C0B1AC335E9008CA059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +44,13 @@
 		8F540C161AC335E9008CA059 /* DorianKittyInSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorianKittyInSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F540C1B1AC335E9008CA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DorianKittyInSpaceTests.m; sourceTree = "<group>"; };
+		FED10D491AC349800041B28E /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
+		FED10D4A1AC349800041B28E /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		FED10D4F1AC34D6E0041B28E /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		FED10D501AC34D6E0041B28E /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		FED10D521AC365E30041B28E /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		FED10D541AC36C8A0041B28E /* MachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineNode.h; sourceTree = "<group>"; };
+		FED10D551AC36C8A0041B28E /* MachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,15 +92,15 @@
 		8F540BFA1AC335E9008CA059 /* DorianKittyInSpace */ = {
 			isa = PBXGroup;
 			children = (
-				8F540BFF1AC335E9008CA059 /* AppDelegate.h */,
-				8F540C001AC335E9008CA059 /* AppDelegate.m */,
-				8F540C021AC335E9008CA059 /* GameScene.h */,
-				8F540C031AC335E9008CA059 /* GameScene.m */,
-				8F540C051AC335E9008CA059 /* GameScene.sks */,
-				8F540C071AC335E9008CA059 /* GameViewController.h */,
-				8F540C081AC335E9008CA059 /* GameViewController.m */,
+				FED10D4F1AC34D6E0041B28E /* TitleScene.h */,
+				FED10D501AC34D6E0041B28E /* TitleScene.m */,
+				FED10D491AC349800041B28E /* GamePlayScene.h */,
+				FED10D4A1AC349800041B28E /* GamePlayScene.m */,
+				FED10D541AC36C8A0041B28E /* MachineNode.h */,
+				FED10D551AC36C8A0041B28E /* MachineNode.m */,
 				8F540C0A1AC335E9008CA059 /* Main.storyboard */,
 				8F540C0D1AC335E9008CA059 /* Images.xcassets */,
+				FED10D521AC365E30041B28E /* Sprites.atlas */,
 				8F540C0F1AC335E9008CA059 /* LaunchScreen.xib */,
 				8F540BFB1AC335E9008CA059 /* Supporting Files */,
 			);
@@ -104,6 +110,10 @@
 		8F540BFB1AC335E9008CA059 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8F540C071AC335E9008CA059 /* GameViewController.h */,
+				8F540C081AC335E9008CA059 /* GameViewController.m */,
+				8F540BFF1AC335E9008CA059 /* AppDelegate.h */,
+				8F540C001AC335E9008CA059 /* AppDelegate.m */,
 				8F540BFC1AC335E9008CA059 /* Info.plist */,
 				8F540BFD1AC335E9008CA059 /* main.m */,
 			);
@@ -210,7 +220,7 @@
 			files = (
 				8F540C111AC335E9008CA059 /* LaunchScreen.xib in Resources */,
 				8F540C0E1AC335E9008CA059 /* Images.xcassets in Resources */,
-				8F540C061AC335E9008CA059 /* GameScene.sks in Resources */,
+				FED10D531AC365E40041B28E /* Sprites.atlas in Resources */,
 				8F540C0C1AC335E9008CA059 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,8 +241,10 @@
 			files = (
 				8F540C091AC335E9008CA059 /* GameViewController.m in Sources */,
 				8F540C011AC335E9008CA059 /* AppDelegate.m in Sources */,
-				8F540C041AC335E9008CA059 /* GameScene.m in Sources */,
+				FED10D4B1AC349800041B28E /* GamePlayScene.m in Sources */,
+				FED10D511AC34D6E0041B28E /* TitleScene.m in Sources */,
 				8F540BFE1AC335E9008CA059 /* main.m in Sources */,
+				FED10D561AC36C8A0041B28E /* MachineNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +435,7 @@
 				8F540C221AC335E9008CA059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F540C231AC335E9008CA059 /* Build configuration list for PBXNativeTarget "DorianKittyInSpaceTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +444,7 @@
 				8F540C251AC335E9008CA059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
