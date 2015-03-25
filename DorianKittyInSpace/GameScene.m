@@ -10,17 +10,34 @@
 
 @implementation GameScene
 
--(void)didMoveToView:(SKView *)view {
-    /* Setup your scene here */
-    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
-    
-    myLabel.text = @"Hello, World!";
-    myLabel.fontSize = 65;
-    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                   CGRectGetMidY(self.frame));
-    
-    [self addChild:myLabel];
+-(id)initWithSize:(CGSize)size {
+    if (self = [super initWithSize:size]) {
+        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        
+        SKSpriteNode *greenNode = [SKSpriteNode spriteNodeWithColor:[SKColor greenColor] size:CGSizeMake(15, 150)];
+        greenNode.position = CGPointMake(10, 10);
+        greenNode.anchorPoint = CGPointMake(0, 0);
+        [self addChild:greenNode];
+        
+        SKSpriteNode *redNode = [SKSpriteNode spriteNodeWithColor:[SKColor redColor] size:CGSizeMake(150, 15)];
+        redNode.position = CGPointMake(10, 10);
+        redNode.anchorPoint = CGPointMake(0, 0);
+        [self addChild:redNode];
+    }
+    return self;
 }
+
+//-(void)didMoveToView:(SKView *)view {
+//    /* Setup your scene here */
+//    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+//    
+//    myLabel.text = @"Hello, World!";
+//    myLabel.fontSize = 65;
+//    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
+//                                   CGRectGetMidY(self.frame));
+//    
+//    [self addChild:myLabel];
+//}
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
