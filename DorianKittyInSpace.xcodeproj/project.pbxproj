@@ -14,6 +14,9 @@
 		8F540C0E1AC335E9008CA059 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0D1AC335E9008CA059 /* Images.xcassets */; };
 		8F540C111AC335E9008CA059 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F540C0F1AC335E9008CA059 /* LaunchScreen.xib */; };
 		8F540C1D1AC335E9008CA059 /* DorianKittyInSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */; };
+		FE4407CC1AC3A1C100050418 /* DorianKittyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4407CB1AC3A1C100050418 /* DorianKittyNode.m */; };
+		FE4407CF1AC3AE4500050418 /* ProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4407CE1AC3AE4500050418 /* ProjectileNode.m */; };
+		FE4407D61AC3C51500050418 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4407D51AC3C51500050418 /* Utilities.m */; };
 		FED10D4B1AC349800041B28E /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D4A1AC349800041B28E /* GamePlayScene.m */; };
 		FED10D511AC34D6E0041B28E /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D501AC34D6E0041B28E /* TitleScene.m */; };
 		FED10D531AC365E40041B28E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FED10D521AC365E30041B28E /* Sprites.atlas */; };
@@ -32,18 +35,24 @@
 
 /* Begin PBXFileReference section */
 		8F540BF81AC335E9008CA059 /* DorianKittyInSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DorianKittyInSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F540BFC1AC335E9008CA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F540BFD1AC335E9008CA059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F540BFF1AC335E9008CA059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8F540C001AC335E9008CA059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F540C071AC335E9008CA059 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		8F540C081AC335E9008CA059 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		8F540BFC1AC335E9008CA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DorianKittyInSpace/Info.plist; sourceTree = "<group>"; };
+		8F540BFD1AC335E9008CA059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DorianKittyInSpace/main.m; sourceTree = "<group>"; };
+		8F540BFF1AC335E9008CA059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DorianKittyInSpace/AppDelegate.h; sourceTree = "<group>"; };
+		8F540C001AC335E9008CA059 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DorianKittyInSpace/AppDelegate.m; sourceTree = "<group>"; };
+		8F540C071AC335E9008CA059 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = DorianKittyInSpace/GameViewController.h; sourceTree = "<group>"; };
+		8F540C081AC335E9008CA059 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = DorianKittyInSpace/GameViewController.m; sourceTree = "<group>"; };
 		8F540C0B1AC335E9008CA059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F540C0D1AC335E9008CA059 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F540C101AC335E9008CA059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8F540C161AC335E9008CA059 /* DorianKittyInSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorianKittyInSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F540C1B1AC335E9008CA059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F540C1C1AC335E9008CA059 /* DorianKittyInSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DorianKittyInSpaceTests.m; sourceTree = "<group>"; };
+		FE4407CA1AC3A1C100050418 /* DorianKittyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DorianKittyNode.h; sourceTree = "<group>"; };
+		FE4407CB1AC3A1C100050418 /* DorianKittyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DorianKittyNode.m; sourceTree = "<group>"; };
+		FE4407CD1AC3AE4500050418 /* ProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileNode.h; sourceTree = "<group>"; };
+		FE4407CE1AC3AE4500050418 /* ProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileNode.m; sourceTree = "<group>"; };
+		FE4407D41AC3C51500050418 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		FE4407D51AC3C51500050418 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		FED10D491AC349800041B28E /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		FED10D4A1AC349800041B28E /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
 		FED10D4F1AC34D6E0041B28E /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
@@ -92,12 +101,8 @@
 		8F540BFA1AC335E9008CA059 /* DorianKittyInSpace */ = {
 			isa = PBXGroup;
 			children = (
-				FED10D4F1AC34D6E0041B28E /* TitleScene.h */,
-				FED10D501AC34D6E0041B28E /* TitleScene.m */,
-				FED10D491AC349800041B28E /* GamePlayScene.h */,
-				FED10D4A1AC349800041B28E /* GamePlayScene.m */,
-				FED10D541AC36C8A0041B28E /* MachineNode.h */,
-				FED10D551AC36C8A0041B28E /* MachineNode.m */,
+				FE4407D81AC3C7A500050418 /* Core */,
+				FE4407D71AC3C76100050418 /* Infra */,
 				8F540C0A1AC335E9008CA059 /* Main.storyboard */,
 				8F540C0D1AC335E9008CA059 /* Images.xcassets */,
 				FED10D521AC365E30041B28E /* Sprites.atlas */,
@@ -110,12 +115,6 @@
 		8F540BFB1AC335E9008CA059 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F540C071AC335E9008CA059 /* GameViewController.h */,
-				8F540C081AC335E9008CA059 /* GameViewController.m */,
-				8F540BFF1AC335E9008CA059 /* AppDelegate.h */,
-				8F540C001AC335E9008CA059 /* AppDelegate.m */,
-				8F540BFC1AC335E9008CA059 /* Info.plist */,
-				8F540BFD1AC335E9008CA059 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,6 +134,39 @@
 				8F540C1B1AC335E9008CA059 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE4407D71AC3C76100050418 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				8F540BFC1AC335E9008CA059 /* Info.plist */,
+				8F540BFD1AC335E9008CA059 /* main.m */,
+				8F540BFF1AC335E9008CA059 /* AppDelegate.h */,
+				8F540C001AC335E9008CA059 /* AppDelegate.m */,
+				8F540C071AC335E9008CA059 /* GameViewController.h */,
+				8F540C081AC335E9008CA059 /* GameViewController.m */,
+			);
+			name = Infra;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FE4407D81AC3C7A500050418 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FED10D4F1AC34D6E0041B28E /* TitleScene.h */,
+				FED10D501AC34D6E0041B28E /* TitleScene.m */,
+				FED10D491AC349800041B28E /* GamePlayScene.h */,
+				FED10D4A1AC349800041B28E /* GamePlayScene.m */,
+				FE4407CA1AC3A1C100050418 /* DorianKittyNode.h */,
+				FE4407CB1AC3A1C100050418 /* DorianKittyNode.m */,
+				FE4407CD1AC3AE4500050418 /* ProjectileNode.h */,
+				FE4407CE1AC3AE4500050418 /* ProjectileNode.m */,
+				FED10D541AC36C8A0041B28E /* MachineNode.h */,
+				FED10D551AC36C8A0041B28E /* MachineNode.m */,
+				FE4407D41AC3C51500050418 /* Utilities.h */,
+				FE4407D51AC3C51500050418 /* Utilities.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +273,11 @@
 			files = (
 				8F540C091AC335E9008CA059 /* GameViewController.m in Sources */,
 				8F540C011AC335E9008CA059 /* AppDelegate.m in Sources */,
+				FE4407CF1AC3AE4500050418 /* ProjectileNode.m in Sources */,
+				FE4407D61AC3C51500050418 /* Utilities.m in Sources */,
 				FED10D4B1AC349800041B28E /* GamePlayScene.m in Sources */,
 				FED10D511AC34D6E0041B28E /* TitleScene.m in Sources */,
+				FE4407CC1AC3A1C100050418 /* DorianKittyNode.m in Sources */,
 				8F540BFE1AC335E9008CA059 /* main.m in Sources */,
 				FED10D561AC36C8A0041B28E /* MachineNode.m in Sources */,
 			);
