@@ -7,12 +7,11 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "splash_1331x750.png"
+      "filename" : "splash_new.jpg"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "splash_2205x1242.png"
+      "scale" : "3x"
     }
   ],
   "info" : {

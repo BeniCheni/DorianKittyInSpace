@@ -17,6 +17,8 @@
 		FE4407CC1AC3A1C100050418 /* DorianKittyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4407CB1AC3A1C100050418 /* DorianKittyNode.m */; };
 		FE4407CF1AC3AE4500050418 /* ProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4407CE1AC3AE4500050418 /* ProjectileNode.m */; };
 		FE4407D61AC3C51500050418 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4407D51AC3C51500050418 /* Utilities.m */; };
+		FE7A69711AC4DA57007AA2F7 /* SpaceDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A69701AC4DA57007AA2F7 /* SpaceDogNode.m */; };
+		FE7A69741AC4ED5D007AA2F7 /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A69731AC4ED5D007AA2F7 /* GroundNode.m */; };
 		FED10D4B1AC349800041B28E /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D4A1AC349800041B28E /* GamePlayScene.m */; };
 		FED10D511AC34D6E0041B28E /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FED10D501AC34D6E0041B28E /* TitleScene.m */; };
 		FED10D531AC365E40041B28E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FED10D521AC365E30041B28E /* Sprites.atlas */; };
@@ -53,6 +55,10 @@
 		FE4407CE1AC3AE4500050418 /* ProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileNode.m; sourceTree = "<group>"; };
 		FE4407D41AC3C51500050418 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		FE4407D51AC3C51500050418 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		FE7A696F1AC4DA57007AA2F7 /* SpaceDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceDogNode.h; sourceTree = "<group>"; };
+		FE7A69701AC4DA57007AA2F7 /* SpaceDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceDogNode.m; sourceTree = "<group>"; };
+		FE7A69721AC4ED5D007AA2F7 /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundNode.h; sourceTree = "<group>"; };
+		FE7A69731AC4ED5D007AA2F7 /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundNode.m; sourceTree = "<group>"; };
 		FED10D491AC349800041B28E /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		FED10D4A1AC349800041B28E /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
 		FED10D4F1AC34D6E0041B28E /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
@@ -159,10 +165,14 @@
 				FED10D4A1AC349800041B28E /* GamePlayScene.m */,
 				FE4407CA1AC3A1C100050418 /* DorianKittyNode.h */,
 				FE4407CB1AC3A1C100050418 /* DorianKittyNode.m */,
+				FE7A696F1AC4DA57007AA2F7 /* SpaceDogNode.h */,
+				FE7A69701AC4DA57007AA2F7 /* SpaceDogNode.m */,
 				FE4407CD1AC3AE4500050418 /* ProjectileNode.h */,
 				FE4407CE1AC3AE4500050418 /* ProjectileNode.m */,
 				FED10D541AC36C8A0041B28E /* MachineNode.h */,
 				FED10D551AC36C8A0041B28E /* MachineNode.m */,
+				FE7A69721AC4ED5D007AA2F7 /* GroundNode.h */,
+				FE7A69731AC4ED5D007AA2F7 /* GroundNode.m */,
 				FE4407D41AC3C51500050418 /* Utilities.h */,
 				FE4407D51AC3C51500050418 /* Utilities.m */,
 			);
@@ -276,8 +286,10 @@
 				FE4407CF1AC3AE4500050418 /* ProjectileNode.m in Sources */,
 				FE4407D61AC3C51500050418 /* Utilities.m in Sources */,
 				FED10D4B1AC349800041B28E /* GamePlayScene.m in Sources */,
+				FE7A69711AC4DA57007AA2F7 /* SpaceDogNode.m in Sources */,
 				FED10D511AC34D6E0041B28E /* TitleScene.m in Sources */,
 				FE4407CC1AC3A1C100050418 /* DorianKittyNode.m in Sources */,
+				FE7A69741AC4ED5D007AA2F7 /* GroundNode.m in Sources */,
 				8F540BFE1AC335E9008CA059 /* main.m in Sources */,
 				FED10D561AC36C8A0041B28E /* MachineNode.m in Sources */,
 			);

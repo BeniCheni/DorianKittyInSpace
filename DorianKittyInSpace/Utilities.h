@@ -8,8 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-static const int ProjectileSpeed = 350;
+static const int ProjectileSpeed = 380;
+static const int SpaceDogMinSpeed = -100;
+static const int SpaceDogMaxSpeed = -50;
+
+typedef NS_OPTIONS(uint32_t, CollisionCategory) {
+    CollisionCategoryEnemy      = 1 << 0,   // 0001
+    CollisionCategoryProjectile = 1 << 1,   // 0010
+    CollisionCategoryDebris     = 1 << 2,   // 0100
+    CollisionCategoryGround     = 1 << 3    // 1000
+};
 
 @interface Utilities : NSObject
+
++(NSInteger)randomWithMin:(NSInteger)min max:(NSInteger)max;
 
 @end
